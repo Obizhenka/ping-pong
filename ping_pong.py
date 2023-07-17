@@ -105,13 +105,13 @@ while run:
 
         if ball.rect.x > WIDTH:
             score1 += 1
-            ball.rect.x = 200
-            ball.rect.y = 200
+            ball.rect.x = 275
+            ball.rect.y = 250
 
         if ball.rect.x < 0:
             score2 += 1
-            ball.rect.x = 200
-            ball.rect.y = 200
+            ball.rect.x = 275
+            ball.rect.y = 250
 
         if score1 >= WIN_SCORE or score2 >= WIN_SCORE:
             finish = True
